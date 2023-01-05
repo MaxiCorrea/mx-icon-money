@@ -1,13 +1,16 @@
 {
-  "name": "mx-icon-money",
+  "name": "@maxicorrea/mx-icon-money",
   "version": "1.0.0",
   "description": "MxIconMoney Component",
   "author": "MaxiCorrea",
   "license": "MIT",
-  "repository": "MaxiCorrea/mx-icon-money",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiCorrea/mx-icon-money.git"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -56,6 +59,9 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
     "typescript": "^3.7.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist"

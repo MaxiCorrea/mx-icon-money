@@ -1,10 +1,22 @@
 import * as React from 'react'
-import styles from './styles.module.css'
+import { WallterAdd } from './svg/WalletAdd'
+import { WalletEmpty } from './svg/WalletEmpty'
+import { WalletCheck } from './svg/WalletCheck'
+import { ReceiptItem } from './svg/ReceiptItem'
+import { ReceiptDiscount } from './svg/ReceiptDiscount'
+import { WalletEmptyRemove } from './svg/WalletEmptyRemove'
+import { WalletEmptyAdd } from './svg/WalletEmptyAdd'
 
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const ExampleComponent: React.FC = () => {
+  return (
+    <div>
+      <WallterAdd />
+      <WalletEmpty />
+      <WalletCheck />
+      <ReceiptItem />
+      <ReceiptDiscount />
+      <WalletEmptyRemove />
+      <WalletEmptyAdd />
+    </div>
+  )
 }
