@@ -7,6 +7,9 @@ import { ReceiptDiscount } from './svg/ReceiptDiscount'
 import { WalletEmptyRemove } from './svg/WalletEmptyRemove'
 import { WalletEmptyAdd } from './svg/WalletEmptyAdd'
 import { ReceiptMinus } from './svg/ReceiptMinus'
+import { WalletSearch } from './svg/WalletSearch'
+import { StrongBox } from './svg/StrongBox'
+import { ReceiptAdd } from './svg/ReceiptAdd'
 
 export const ExampleComponent: React.FC = () => {
   return (
@@ -19,6 +22,9 @@ export const ExampleComponent: React.FC = () => {
       <WalletEmptyRemove />
       <WalletEmptyAdd />
       <ReceiptMinus />
+      <WalletSearch />
+      <StrongBox />
+      <ReceiptAdd />
     </div>
   )
 }
