@@ -6,6 +6,7 @@ import { ReceiptItem } from './svg/ReceiptItem'
 import { ReceiptDiscount } from './svg/ReceiptDiscount'
 import { WalletEmptyRemove } from './svg/WalletEmptyRemove'
 import { WalletEmptyAdd } from './svg/WalletEmptyAdd'
+import { ReceiptMinus } from './svg/ReceiptMinus'
 
 export const ExampleComponent: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ export const ExampleComponent: React.FC = () => {
       <ReceiptDiscount />
       <WalletEmptyRemove />
       <WalletEmptyAdd />
+      <ReceiptMinus />
     </div>
   )
 }
