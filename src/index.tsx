@@ -21,6 +21,10 @@ import { WalletEmptyTick } from './svg/WalletEmptyTick'
 import { Money4 } from './svg/Money4'
 import { Group } from './svg/Group'
 import { ChartSquare } from './svg/ChartSquare'
+import { Moneys } from './svg/Moneys'
+import { Coin } from './svg/Coin'
+import { ReceiptEdit } from './svg/ReceiptEdit'
+import { MoneyTick } from './svg/MoneyTick'
 
 export const ExampleComponent: React.FC = () => {
   return (
@@ -50,6 +54,12 @@ export const ExampleComponent: React.FC = () => {
         <Money4 />
         <Group />
         <ChartSquare />
+      </div>
+      <div>
+        <Moneys />
+        <Coin />
+        <ReceiptEdit />
+        <MoneyTick />
       </div>
     </div>
   )
